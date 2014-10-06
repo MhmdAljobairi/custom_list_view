@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img_person"
+        android:scaleType="centerCrop"
+        android:layout_margin="3dp"
+        android:layout_width="120dp"
+        android:src="@drawable/default_person"
+        android:layout_height="120dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_name_person"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+            android:text="Mohammad Aljobairi"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_title_person"
+            android:layout_width="wrap_content"
+            android:text="CEO of Android01.me"
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
